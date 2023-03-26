@@ -23,7 +23,7 @@ l.place(x=0, y=0)
 
 f2 = Frame(l, bg="orange", width=1535, height=5)
 f2.place(x=0, y=0)
-f1 = Frame(l, width=1518, height=100, bg="darkblue", borderwidth=5, relief=RIDGE)
+f1 = Frame(l, width=1518, height=100, bg="blue", borderwidth=5, relief=RIDGE)
 f1.place(x=5, y=5)
 txtc = str(3)
 
@@ -235,7 +235,7 @@ def check(*args):
                         f1.place(x=5, y=5)
 
                         l1 = Label(f1, text="No of Lives Left = " + str(txtc), font=("Algerian", 25, "bold"),
-                                   bg="darkblue",
+                                   bg="blue",
                                    fg="white", borderwidth=5, relief=RIDGE, pady=5, padx=15)
                         l1.place(x=500, y=20)
 
